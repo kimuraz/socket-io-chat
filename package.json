@@ -1,0 +1,32 @@
+{
+  "name": "socket-io-chat",
+  "version": "1.0.0",
+  "description": "A chat server implemented with SocketIO for study purposes",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimuraz/socket-io-chat.git"
+  },
+  "keywords": [
+    "SocketIO",
+    "javascript",
+    "node",
+    "study"
+  ],
+  "author": "Kimura <j.eduardokimura@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimuraz/socket-io-chat/issues"
+  },
+  "homepage": "https://github.com/kimuraz/socket-io-chat#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
